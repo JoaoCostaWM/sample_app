@@ -75,4 +75,7 @@ test "email validation should accept valid addresses" do
   test "authenticated? should return false for a user with nil digest" do
     assert_not @user.authenticated?('')
   end
+
+
+
 end
